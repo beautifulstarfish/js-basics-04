@@ -12,15 +12,6 @@
 
 */
 
-// code to be deleted
-const birthYear = 1947;
-const thisYear = 1965;
-const firstName = "Carlos";
-const lastName = "Stevenson";
-
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
-
-console.log(greeting);
 
 /*
 
@@ -53,7 +44,14 @@ console.log(greeting);
 */
 
 //===== Your code goes here =================
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+
+console.log(greeting)
 
 /*
 
